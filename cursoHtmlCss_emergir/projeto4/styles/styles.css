@@ -1,0 +1,122 @@
+/*General*/
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+
+/*Barra de navegação*/
+
+#navbar {
+    margin-top: 20px;
+}
+
+.navlist {
+    padding: 0 25px;
+}
+
+.navlist li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.navlist li a{
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.navlist li a:hover{
+    text-decoration: underline;
+}
+
+#social-bar {
+    text-align: right;
+}
+
+/* corpo do site */
+#body {
+    text-align: center;
+}
+
+#google-logo {
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+
+#input-box {
+    width: 43vw; /* view width - corresponde a 43% da largura da tela do user */
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-input {
+    height: 48px;
+    border-radius: 24px;
+    width: 100%;
+    box-sizing: border-box; /*o tamanho máximo dop input é a borda do elemento pai*/
+    font-size: 16px;
+    padding: 0 50px;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 0px 5px #DDD; /*cria uma sombra ao redor do elemento*/
+
+}
+
+#search-icon, #keyboard-icon, #mic-icon {
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+}
+
+#search-icon {
+    left: 20px;
+}
+#keyboard-icon {
+    right: 55px;
+}
+#mic-icon{
+    right: 20px;
+}
+
+#body input[type='submit'] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    height: 34px;
+    padding: 0 16px;
+    font-size: 14px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#body input[type='submit']:hover {
+    color: #333;
+    border-color: #333;
+}
+
+/*footer*/
+footer {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    bottom: 0;
+    height: 42px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+#left-bar, #right-bar {
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+#right-bar {
+    position: absolute;
+    right: 0;
+}

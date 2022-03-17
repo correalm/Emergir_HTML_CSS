@@ -1,0 +1,33 @@
+h1 {
+    color:red
+}
+
+.family{
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* boxmodel */
+
+body {
+    margin: 0;
+}
+
+p {
+    color: black;
+    margin: 0;
+    
+}
+
+.boxmodel {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 20px 20px;
+    border: solid blue;
+    margin: 50px;
+
+    /* para alterar cada uma das bordas individualmente
+    possu usar a mesma lógica do padding */
+    border-radius: 5px; /* arredondar os cantos raio da borda */
+}

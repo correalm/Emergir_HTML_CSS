@@ -1,0 +1,69 @@
+html {
+    font-family: Helvetica;
+    background-color: #ddd;
+}
+
+.conteiner {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 50px;
+    margin: 50px;
+    background-color: #fff;
+}
+
+/* interessante criar uma classe assim para poder reaproveitar em várias partes do projeto*/
+.destaque {
+    font-weight: bold;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    text-align: center;
+}
+.titulo-principal {
+    font-size: 40px;
+}
+.paragrafo-principal {
+    font-style: italic;
+}
+
+/* corpo do site */
+.img-destaque {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* biografia */
+.biografia-conteiner{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+/* citações */
+.frase-conteiner{
+    background-color: #DDD;
+    padding: 30px;
+}
+.frase-conteiner blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+.frase-container p {
+    font-style: italic;
+}
+
+/* curiosidades */
+.curiosidades-conteiner {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+}
+
+.curiosidades-conteiner li {
+    height: 30px;
+} 
